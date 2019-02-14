@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9494f307-c1ec-49c3-b3a2-e8bd3267d84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{a3d208ce-c616-4e32-9d2d-f8e8825c59cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1d2eb2cb-c2cc-41b4-af6d-395b05f55a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{473dfab2-3e7d-432d-8e69-65aa99f48c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GPU">
+      <UniqueIdentifier>{271e5bd2-7cb3-40b7-b2e5-5e343c58f910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers">
+      <UniqueIdentifier>{2940a1fd-9fef-46a7-93fb-a8241118d00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Billiard">
+      <UniqueIdentifier>{33b6d90f-e54e-4dc0-af1c-fc66b86c589f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Billiard\camera">
+      <UniqueIdentifier>{3fbdda2d-388b-4c13-938c-5851305e1d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Billiard\transform3D">
+      <UniqueIdentifier>{bd176979-7b6b-4eec-8638-8c8f11dd0a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Billiard\shaders">
+      <UniqueIdentifier>{88a2006c-6e03-449e-ba7d-8b61e0c26e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Billiard\table">
+      <UniqueIdentifier>{c99bb016-b603-4feb-85c5-533633047c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Billiard\collision">
+      <UniqueIdentifier>{4d2e17f4-a2bc-41a9-952d-287643c106f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Billiard\tac">
+      <UniqueIdentifier>{72b5f831-2916-47be-b6ea-26188c068836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Billiard\ball">
+      <UniqueIdentifier>{e4b7aab5-dac6-48a3-ae57-3eb7e9f3ad3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Core\Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\World.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\include\gl.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\WindowObject.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Shader.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\Core\Window\WindowCallbacks.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Mesh.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Texture2D.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Managers\TextureManager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\CameraInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\InputController.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SimpleScene.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\GPUBuffers.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SceneInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Billiard\table\ComponentTable.cpp">
+      <Filter>Billiard\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Billiard\collision\Collision.cpp">
+      <Filter>Billiard\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Billiard\table\BilliardTable.cpp">
+      <Filter>Billiard\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Billiard\table\Hole.cpp">
+      <Filter>Billiard\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Billiard\Billiard.cpp">
+      <Filter>Billiard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Billiard\tac\Tac.cpp">
+      <Filter>Billiard\tac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Billiard\ball\Ball.cpp">
+      <Filter>Billiard\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Billiard\ball\WhiteBall.cpp">
+      <Filter>Billiard\ball</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Core\World.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\gl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\glm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\math.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowObject.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Shader.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowCallbacks.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Mesh.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Texture2D.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\ResourcePath.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\TextureManager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\CameraInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\InputController.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SimpleScene.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\GPUBuffers.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SceneInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Billiard\camera\Camera.h">
+      <Filter>Billiard\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Billiard\transform3D\Transform3D.h">
+      <Filter>Billiard\transform3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Billiard\table\ComponentTable.h">
+      <Filter>Billiard\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Billiard\collision\Collision.h">
+      <Filter>Billiard\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Billiard\table\BilliardTable.h">
+      <Filter>Billiard\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Billiard\table\Hole.h">
+      <Filter>Billiard\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Billiard\Billiard.h">
+      <Filter>Billiard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Billiard\tac\Tac.h">
+      <Filter>Billiard\tac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Billiard\ball\Ball.h">
+      <Filter>Billiard\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Billiard\ball\WhiteBall.h">
+      <Filter>Billiard\ball</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Source\Billiard\shaders\VertexShader.glsl">
+      <Filter>Billiard\shaders</Filter>
+    </None>
+    <None Include="..\Source\Billiard\shaders\FragmentShader.glsl">
+      <Filter>Billiard\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
