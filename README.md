@@ -2,7 +2,7 @@
 	
 	Implementarea jocului de Biliard.
 
-![](img/billiad1.png)
+![](img/billiard1.PNG)
 
 ![](img/billiad2.png)
 
