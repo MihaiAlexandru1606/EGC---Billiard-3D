@@ -1,14 +1,13 @@
-"## EGC---Billiard-3D" 
+## EGC---Billiard-3D
 	
 	Implementarea jocului de Biliard.
 
 ![](img/billiard1.PNG)
 
-![](img/billiad2.png)
+![](img/billiard2.PNG)
 
-![](img/billiad3.png)
+![](img/billiard3.PNG)
 
-![](img/billiad4.png)
+![](img/billiard4.PNG)
 
-![](img/billiad5.png)
-
+![](img/billiard5.PNG)
