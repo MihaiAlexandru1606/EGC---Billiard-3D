@@ -77,7 +77,7 @@ void Billiard::printRules()
 	std::cout << "\t4) Daca s-a introdus bila negra fara sa introduci celelate bile, cum este mentionat mai sus, " << std::endl;
 	std::cout << "duce la pirderea jocului " << std::endl;
 	std::cout << "\t5)\"Jucatorul care incepe va putea deplasa bila alba in prima treime a mesei. Dupa ce a mutat" << std::endl;
-	std::cout << "bila unde doreste cu tastele “WASD”, apasa pe \"SPACE\".\"" << std::endl;
+	std::cout << "bila unde doreste cu tastele â€œWASDâ€, apasa pe \"SPACE\".\"" << std::endl;
 	std::cout << "\t6)\"\"Right Mouse Button\" se poate misca tacul in jurul bilei albe " << std::endl;
 	std::cout << "\t7) Declamsarea lovituri se face prin \"Left Mouse Button\"" << std::endl;
 	std::cout << "\t8) \"Daca este comis un fault, celalalt jucator poate plasa bila alba oriunde pe masa cu tastele WASD\"" << std::endl << std::endl;
@@ -661,7 +661,7 @@ void Billiard::updateBall(float acceleration, float deltaTime)
 	}
 }
 
-/********************************************************** FUNCTILE PENTRU COLIZIUNE  ************************************************************/
+/********************************************************** FUNCTIILE PENTRU COLIZIUNE  ************************************************************/
 
 void Billiard::checkCollision()
 {
